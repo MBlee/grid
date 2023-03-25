@@ -1,0 +1,50 @@
+#container{
+	display: grid;
+	width: 600px;
+	height: 600px;
+	background-color: gainsboro;
+	margin: 0 auto;
+	grid-template-rows: 100px repeat(3,150px);
+	grid-template-columns: 100px repeat(auto-fill,150px);
+	grid-template-areas: "a a a"
+			   "b b b"
+			   "c c c";
+	grid-gap: 10px;
+
+	grid-auto-flow: row dense;
+
+	place-items:stretch;
+	place-content: space-evenly;
+}
+.item{
+	background-color: seagreen;
+}
+.item1{
+	width: 500px;
+	height: 600px;
+	background-color: pink;
+}
+.item2{
+	background-color: seagreen;
+}
+.item3{
+	background-color: pink;
+}
+.item4{
+	background-color: seagreen;
+}
+.item5{
+	background-color: pink;
+}
+.item6{
+	background-color: seagreen;
+}
+.item7{
+	background-color: pink;
+}
+.item8{
+	background-color: seagreen;
+}
+.item9{
+	background-color: pink;
+}
